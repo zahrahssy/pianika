@@ -1,0 +1,52 @@
+body{
+	background-image: linear-gradient(purple, pink);
+}
+
+.piano-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000000;
+    border-radius: 40px;
+}
+
+.piano{
+    display: flex;
+    height: 200px;
+    width: 800px;
+    justify-content: center;
+    gap: 3px;
+}
+
+.piano > button:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+.button{
+    margin: 100px;
+    padding-left:10px;
+    color: #FFFFFF;
+}
+
+.btn-outline-dark{
+    height: 150px;
+    background-color: #FFFFFF;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 50px;
+    font-size: 65px;
+}
+
+h4 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 20px
+}
+  
